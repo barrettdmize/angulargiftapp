@@ -1,0 +1,24 @@
+{
+  "name": "angulargiftapp",
+  "homepage": "",
+  "authors": [
+    "Barrett Mize <barrettdmize@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.4.8",
+    "moment": "~2.10.6",
+    "underscore": "~1.8.3",
+    "angular-ui-router": "~0.2.15"
+  }
+}

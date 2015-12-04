@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Gift for you</title>
+  <link href='https://fonts.googleapis.com/css?family=Caudex' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body ng-app='admin'>
+
+  <nav>
+      <div class="topNav">
+
+        <div class="menuPersons">
+          <a ng-href="#/people">My people</a>
+          <a ng-href="#/addinterestview"><button type="button" name="button">Add an Interest</button></a>
+          <a ng-href="#/admins"><button type="button" name="button">Add person to the gift party</button></a>
+          <div >
+        <ng-view></ng-view>
+  </div>
+</div>
+        </div>
+      </div>
+    </nav>
+  <!-- bower components -->
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js" charset="utf-8"></script>
+<script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+<script type="text/javascript" src="bower_components/underscore/underscore.js"></script>
+<script type="text/javascript" src="bower_components/moment/moment.js"></script>
+
+
+
+  <!-- common module -->
+  <script src="common/app.module.js" charset="utf-8"></script>
+  <script src="common/app.controller.js" charset="utf-8"></script>
+  <script src="common/app.services.js" charset="utf-8"></script>
+
+  <!-- admin module -->
+<script src="admin/admin.module.js" charset="utf-8"></script>
+<script src="admin/admin.controller.js" charset="utf-8"></script>
+<script src="admin/admin.services.js" charset="utf-8"></script>
+
+<!-- ebay module -->
+<!-- <script src="ebay/ebay.module.js" charset="utf-8"></script>
+<script src="ebay/ebay.controller.js" charset="utf-8"></script>
+<script src="ebay/ebay.service.js" charset="utf-8"></script> -->
+
+
+                      <!-- script files -->
+
+</body>
+</html>

@@ -1,0 +1,13 @@
+<div ng-repeat="person in adminsCtrl.people">
+  {{person.name}}
+</div>
+<div ng-repeat="giftoptn in adminsCtrl.people">
+  {{keyword.giftoptn}}
+</div>
+
+<input type="text" name="name" ng-model="newPerson.name" placeholder="name of a person in the gift party" value="">
+<input type="text" name="name" ng-model="newKeyword.giftoptn" placeholder="keyword that someone would search to find you a cool gift. Example: harry potter scarves" value="">
+<input type="text" name="name" ng-model="newKeyword.giftoptn" placeholder="type an additional key word here so they have some options" value="">
+<input type="text" name="name" ng-model="newKeyword.gitfoptn" placeholder="type an additional key word here so they have some options" value="">
+<input type="submit" name="button" ng-click="adminsCtrl.createPerson(newPerson)" style="width:100px;height:50px;" value="Submit">
+<input type="submit" name="button" ng-click="adminsCtrl.createPerson(newPerson)" style="width:100px;height:50px;" value="Submit">

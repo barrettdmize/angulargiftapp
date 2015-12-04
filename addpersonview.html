@@ -1,0 +1,9 @@
+
+<h1>List Page of people who will be participating in the gift excahange</h1>
+
+<div ng-repeat="per in addedPerson">
+  <h3>{{person.name}}</h3>
+</div>
+
+<input type="text" name="name" ng-model="newPerson.name" placeholder="name of a person in the gift party" value="">
+<button type="submit" name="button" ng-click="createPerson(newPerson)"></button>

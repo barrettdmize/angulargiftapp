@@ -1,0 +1,9 @@
+  <!-- <ebay-items ng-repeat="items in ebayCtrl.items" item="item" action="ebay.cartsItem(item)">
+    <h2>{{item.title[0]}}</h2>
+  </ebay-item> -->
+
+<div ng-repeat="item in ebayCtrl.items">
+  {{item | json}}
+  <h2>{{item.title[0]}}</h2>
+  <img ng-src="{{item.galleryURL[0]}}" alt="">
+</div>
